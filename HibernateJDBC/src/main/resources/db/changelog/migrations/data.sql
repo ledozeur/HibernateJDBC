@@ -1,3 +1,4 @@
+-- liquibase formatted sql
 
 SELECT product_name
 FROM netology.ORDERS
