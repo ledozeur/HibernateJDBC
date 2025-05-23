@@ -1,4 +1,4 @@
-
+--liquibase formatted sql
 create schema netology;
 
 CREATE table netology.CUSTOMERS (

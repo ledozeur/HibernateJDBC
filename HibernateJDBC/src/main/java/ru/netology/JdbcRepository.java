@@ -19,7 +19,7 @@ public class JdbcRepository {
         return entityManager.createNativeQuery("SELECT product_name FROM netology.ORDERS JOIN netology.CUSTOMERS ON ORDERS.customer_id = CUSTOMERS.id WHERE customers.name = :name").setParameter("name", name).getResultList();
     }
 
-  
+
 
    /* public JdbcRepository(NamedParameterJdbcTemplate namedParameterJdbcTemplate) {
         this.namedParameterJdbcTemplate = namedParameterJdbcTemplate;

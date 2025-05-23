@@ -10,6 +10,7 @@ import java.util.Set;
 @Getter
 @Setter
 @EqualsAndHashCode
+
 @NoArgsConstructor
 @AllArgsConstructor
 public class Customers {
